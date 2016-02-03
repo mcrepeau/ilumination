@@ -1,7 +1,4 @@
 var Bulb = require('./index');
-var async = require('async');
-
-var test_interval;
 
 function onDiscover(bulb) {
   console.log('discovered:' + bulb.id + ' type=' + bulb.type);
